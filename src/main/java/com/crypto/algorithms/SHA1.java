@@ -169,4 +169,14 @@ public class SHA1 {
 
         return sb.toString();
     }
+
+    public static void main(String[] args) {
+        String data = "test";
+        String data1 = "tett";
+
+        String s = encodeBase64(data);
+        String s1 = encodeBase64(data1);
+        System.out.println(s);
+        System.out.println(s1);
+    }
 }
